@@ -10,5 +10,15 @@
 		<h2>${headerMessage}</h2>
 		<h3>Student Registration</h3>
 		<p>Student Name: ${student.firstname}  ${student.lastname}</p>
+		<p>Student Hobby: ${student.studentHobby}</p>
+		<p>Student Mobile: ${student.studentMobile}</p>
+		<p>DOB: ${student.dateOfBirth}</p>
+		<p>Skills: ${student.studentSkills} </p>
+		<p>Address: 
+			    <br/>&nbsp;&nbsp;Country: ${student.address.country}
+				<br/>&nbsp;&nbsp;City: ${student.address.city}
+				<br/>&nbsp;&nbsp;Street: ${student.address.street}
+				<br/>&nbsp;&nbsp;Postal Code: ${student.address.postalCode}
+		</p>
 	</body>
 </html>
